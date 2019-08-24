@@ -7,7 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.6.0"
+    "gridsome": "^0.6.0",
+    "gridsome-plugin-tailwindcss": "^2.2.17",
+    "tailwindcss": "^1.1.1",
+    "vue-burger-menu": "^2.0.2"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.17",
