@@ -3,7 +3,7 @@
 
     <button
         href="#"
-        class="flex items-center"
+        class="flex items-center w-4"
         @click="toggleVisibility"
         @keydown.space.exact.prevent="toggleVisibility"
         @keydown.esc.exact="hideDropdown"
