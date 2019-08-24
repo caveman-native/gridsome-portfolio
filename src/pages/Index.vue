@@ -1,33 +1,25 @@
 <template>
-  <Layout>
-    
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Stephen OBrien" src="~/assets/images/profile-img.png" width="135" />
-    
-    <h1>Hello, world!</h1>
-   
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <Layout>
 
-    <p class="home-links">
-      <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
+        <div class="flex flex-col items-center">
+            
+            <g-image class="w-3/4 md:w-1/2 rounded" src="~/assets/images/profile-img3.jpg" alt="Stephen OBrien" />
+            
+            <div class="w-3/4 md:w-1/2 text-3xl text-indigo-100 font-semibold leading-normal">Hi, I'm Stephen. I'm a Front End Developer, who likes VueJS.</div>
+            
+            <button class="bg-gray-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-4"><g-link to="/about" class="">more about me</g-link></button>
 
-  </Layout>
+    
+        </div>
+
+    </Layout>
 </template>
-
 <script>
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
+    metaInfo: {
+        title: 'Welcome'
+    }
 }
 </script>
-
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 </style>

@@ -1,52 +1,23 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">stephenobrien.me</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-        <g-link class="nav__link" to="/links">Links</g-link>
-        <g-link class="nav__link" to="/contact">Contact</g-link>
-      </nav>
-    </header>
-    <slot/>
-  </div>
+    <div class="main-container flex flex-col relative min-h-screen mx-auto mt-0 ml-0 mr-0">
+        <!-- flex flex-col min-h-screen mx-auto mt-2 ml-4 mr-4 -->
+        <Navigation />
+        <slot/>
+        <Footer class="absolute inset-x-0 bottom-0" />
+    </div>
 </template>
-
-<static-query>
-query {
-  metaData {
-    siteName
-  }
+<script>
+import Navigation from '~/components/Navigation.vue'
+import Footer from '~/components/Footer.vue'
+export default {
+    components: {
+        Navigation,
+        Footer
+    }
 }
-</static-query>
-
+</script>
 <style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
+    .main-container {
+        background-image: url('~@/assets/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');
+    }
 </style>
