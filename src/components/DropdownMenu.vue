@@ -166,12 +166,18 @@ export default {
 </script>
 
 <style scoped>
-  .dropdown-fade-enter-active, .dropdown-fade-leave-active {
+
+.dropdown-fade-enter-active, .dropdown-fade-leave-active {
     transition: all .1s ease-in-out;
-  }
-  .dropdown-fade-enter, .dropdown-fade-leave-to {
+}
+.dropdown-fade-enter, .dropdown-fade-leave-to {
     opacity: 0;
     transform: translateY(-12px);
-  }
+}
+
+svg.svg-inline--fa.fa-bars.fa-w-14 {
+    width: 1rem!important;
+}
+
 </style>
 
