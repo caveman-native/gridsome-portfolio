@@ -21,6 +21,7 @@
                 <label for="message" class="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4">Short Message</label>
                 <textarea name="message"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <div class="submit-btn">
                 <button class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" type="submit">Submit</button>
             </div>
@@ -30,13 +31,9 @@
 </Layout>
 </template>
 <script>
-
 export default {
     
 }
-
-
-
 </script>
 <style>
 
