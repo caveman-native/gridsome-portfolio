@@ -3,7 +3,7 @@
 <div class="about-container flex flex-col h-auto mb-12">
     <div class="page-title flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-3xl text-white font-semibold">Contact me</div>
     <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
-        <form name="contact" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+        <form name="contact" method="POST" action="/success/" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
             <span class="hidden">
                 <label>Don't fill this out if you're human: <input name="bot-field" /></label>
             </span>
