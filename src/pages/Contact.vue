@@ -1,73 +1,42 @@
 <template>
 <Layout>
-
-<div class="my-form flex flex-col items-center">
-    
-    
-<form 
-  name="contact"
-  method="post"
-  v-on:submit.prevent="handleSubmit"
-  action="/success/"
-  data-netlify="true"
-  data-netlify-honeypot="bot-field"
->
-  <input type="hidden" name="form-name" value="contact" />
-  <p hidden>
-    <label>
-      Don’t fill this out: <input name="bot-field" />
-    </label>
-  </p>
-  <div class="sender-info">
-    <div>
-      <label for="name" class="label block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" >Your name</label>
-      <input type="text" name="name" v-model="formData.name" />
+<div class="about-container flex flex-col h-auto mb-12">
+    <div class="page-title flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-3xl text-white font-semibold">Contact me</div>
+    <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
+        <form name="contact" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+            <span class="hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+            </span>
+            <div class="sender-info">
+                <div>
+                    <label for="name" class="label block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4" >Name</label>
+                    <input type="text" name="name" />
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4">Email</label>
+                    <input type="email" name="email" />
+                </div>
+            </div>
+            <div class="message-wrapper">
+                <label for="message" class="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4">Short Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <div class="submit-btn">
+                <button class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded" type="submit">Submit</button>
+            </div>
+        </form>
     </div>
-    <div>
-      <label for="email" class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Your email</label>
-      <input type="email" name="email" v-model="formData.email" />
-    </div>
-  </div>
-
-  <div class="message-wrapper">
-    <label for="message" class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">Message</label>
-    <textarea name="message" v-model="formData.message"></textarea>
-  </div>
-
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Submit form</button>
-</form>
-            
 </div>
-
 </Layout>
 </template>
 <script>
+
 export default {
-    data() {
-        return {
-            formData: {},
-        }
-    },
-    methods: {
-        encode(data) {
-        return Object.keys(data)
-            .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-            .join('&')
-        },
-        handleSubmit(e) {
-        fetch('/contact', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: this.encode({
-            'form-name': e.target.getAttribute('name'),
-            ...this.formData,
-            }),
-        })
-        .then(() => this.$router.push('/success'))
-        .catch(error => alert(error))
-        }
-    }
+    
 }
+
+
+
 </script>
 <style>
 

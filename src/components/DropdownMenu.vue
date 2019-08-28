@@ -45,8 +45,8 @@
         </li>
         <li>
             <g-link
-            to="/blog"
-            ref="blog"
+            to="/repos"
+            ref="repos"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
             @keydown.shift.tab="focusPrevious(false)"
@@ -55,7 +55,7 @@
             @keydown.esc.exact="hideDropdown"
             >
             <font-awesome :icon="['fas', 'blog']"/>
-            <span class="ml-4">Blog</span>
+            <span class="ml-4">Git Repos</span>
             </g-link>
         </li>
         <li>
