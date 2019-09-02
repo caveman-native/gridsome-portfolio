@@ -1,5 +1,6 @@
 <template>
 <Layout>
+    
 <div class="about-container flex flex-col h-auto mb-12">
     <div class="page-title flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-3xl text-white font-semibold">Contact me</div>
     <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
@@ -29,11 +30,14 @@
         </form>
     </div>
 </div>
+
 </Layout>
 </template>
 <script>
 export default {
-    
+    metaInfo: {
+        title: 'Contact Me'
+    }
 }
 </script>
 <style>

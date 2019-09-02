@@ -27,9 +27,10 @@
 </template>
 
 <script>
+import Default from '~/layouts/Default'
 export default {
-  metaInfo: {
-    title: 'Blog'
-  }
+    metaInfo: {
+        title: 'My Repos'
+    }
 }
 </script>

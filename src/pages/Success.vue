@@ -16,8 +16,11 @@
 </Layout>
 </template>
 <script>
+
 export default {
-    
+    metaInfo: {
+        title: 'Thanks!'
+    }   
 }
 </script>
 <style>

@@ -8,7 +8,10 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Work'
+    title: 'My Work'
   }
 }
 </script>
+<style>
+
+</style>
