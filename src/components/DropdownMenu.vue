@@ -16,7 +16,7 @@
       <ul v-on-clickaway="hideDropdown" v-if="isVisible" ref="dropdown" class="absolute normal-case font-normal xs:left-0 lg:right-0 bg-white shadow overflow-hidden rounded w-48 border mt-2 py-1 lg:z-20">
         <li>
             <g-link
-            to="/"
+            to="/home/"
             ref="home"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.up.exact.prevent=""
@@ -30,7 +30,7 @@
         </li>
         <li>
             <g-link
-            to="/about"
+            to="/about/"
             ref="about"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
@@ -45,7 +45,7 @@
         </li>
         <li>
             <g-link
-            to="/repos"
+            to="/repos/"
             ref="repos"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
@@ -60,7 +60,7 @@
         </li>
         <li>
             <g-link
-            to="/resume"
+            to="/resume/"
             ref="resume"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
@@ -75,7 +75,7 @@
         </li>
         <li>
             <g-link
-            to="/contact"
+            to="/contact/"
             ref="contact"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
