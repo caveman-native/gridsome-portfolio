@@ -1,8 +1,8 @@
 <template>
-  <div class="relative test">
+  <div class="relative">
     <button
         href="#"
-        class="flex items-center ml-3 w-4"
+        class="flex items-center ml-3 w-4 fixed"
         @click="toggleVisibility"
         @keydown.space.exact.prevent="toggleVisibility"
         @keydown.esc.exact="hideDropdown"
