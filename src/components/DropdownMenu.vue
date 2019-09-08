@@ -74,8 +74,8 @@
             </g-link>
         </li>
         <li>
-            <a
-            href="https://www.stephenobrien.me/contact"
+            <g-link
+            to="/contact"
             ref="contact"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
@@ -86,7 +86,7 @@
             >
             <font-awesome :icon="['fas', 'at']"/>
             <span class="ml-4">Contact</span>
-            </a>
+            </g-link>
         </li>
       </ul>
     </transition>
@@ -107,34 +107,34 @@ export default {
         }
     },
     methods: {
-    toggleVisibility() {
-        this.isVisible = !this.isVisible
-    },
-    hideDropdown() {
-        this.isVisible = false
-        this.focusedIndex = 0
-    },
-    startArrowKeys() {
-        if (this.isVisible) {
-        // this.$refs.account.focus()
-            this.$refs.dropdown.children[0].children[0].focus()
+        toggleVisibility() {
+            this.isVisible = !this.isVisible
+        },
+        hideDropdown() {
+            this.isVisible = false
+            this.focusedIndex = 0
+        },
+        startArrowKeys() {
+            if (this.isVisible) {
+            // this.$refs.account.focus()
+                this.$refs.dropdown.children[0].children[0].focus()
+            }
+        },
+        focusPrevious(isArrowKey) {
+            this.focusedIndex = this.focusedIndex - 1
+            if (isArrowKey) {
+                this.focusItem()
+            }
+        },
+        focusNext(isArrowKey) {
+            this.focusedIndex = this.focusedIndex + 1
+            if (isArrowKey) {
+                this.focusItem()
+            }
+        },
+        focusItem() {
+            this.$refs.dropdown.children[this.focusedIndex].children[0].focus()
         }
-    },
-    focusPrevious(isArrowKey) {
-        this.focusedIndex = this.focusedIndex - 1
-        if (isArrowKey) {
-            this.focusItem()
-        }
-    },
-    focusNext(isArrowKey) {
-        this.focusedIndex = this.focusedIndex + 1
-        if (isArrowKey) {
-            this.focusItem()
-        }
-    },
-    focusItem() {
-        this.$refs.dropdown.children[this.focusedIndex].children[0].focus()
-    }
     }
 }
 </script>
