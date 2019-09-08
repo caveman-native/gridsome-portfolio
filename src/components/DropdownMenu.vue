@@ -74,8 +74,8 @@
             </g-link>
         </li>
         <li>
-            <g-link
-            to="/contact"
+            <a
+            href="https://www.stephenobrien.me/contact"
             ref="contact"
             class="flex items-center px-3 py-3 hover:bg-gray-200"
             @keydown.tab.exact="focusNext(false)"
@@ -86,7 +86,7 @@
             >
             <font-awesome :icon="['fas', 'at']"/>
             <span class="ml-4">Contact</span>
-            </g-link>
+            </a>
         </li>
       </ul>
     </transition>
