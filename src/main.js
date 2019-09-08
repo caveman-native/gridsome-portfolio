@@ -35,9 +35,9 @@ export default function (Vue, { router, head, isClient }) {
   // Add an external Javascript before the closing </body> tag
   head.script.push({
     src: 'https://www.google.com/recaptcha/api.js',
-    body: true,
-    async: true,
-    defer: true
+    body: true
+    //async: true,
+    //defer: true
   })
   
 
