@@ -2,7 +2,7 @@
   <div class="relative">
     <button
         href="#"
-        class="flex items-center ml-3 w-4"
+        class="flex items-center ml-3 w-4 text-gray-300"
         @click="toggleVisibility"
         @keydown.space.exact.prevent="toggleVisibility"
         @keydown.esc.exact="hideDropdown"

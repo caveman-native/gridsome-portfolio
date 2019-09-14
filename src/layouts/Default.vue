@@ -18,6 +18,7 @@ export default {
 </script>
 <style>
     .main-container {
-        background-image: url('~@/assets/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');
+        /*background-image: url('~@/assets/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');*/
+        background-color: #000000;
     }
 </style>
