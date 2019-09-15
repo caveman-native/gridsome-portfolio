@@ -7,9 +7,7 @@
     </nav>
 </template>
 <script>
-
 import DropdownMenu from '~/components/DropdownMenu'
-
 export default {
     components: {
         name: 'Navigation',
@@ -22,7 +20,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-</style>
