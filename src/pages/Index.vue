@@ -7,7 +7,7 @@
             
             <div class="w-3/4 md:w-1/4 lg:w-48 max-w-xs mt-1 font-sans text-2xl text-white font-semibold leading-snug">Hi, I'm Stephen. I'm a Front End Developer, who likes VueJS.</div>
             
-            <button class="bg-gray-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-4"><g-link to="/about" class="">learn more</g-link></button>
+            <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-10"><g-link to="/about" class="">learn more</g-link></button>
  
         </div>
 
