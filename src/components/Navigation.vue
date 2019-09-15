@@ -17,7 +17,7 @@ export default {
     },
     data() {
         return {
-            siteDomainName: "so.me"
+            siteDomainName: "s.o.me"
         }
     }
 }
