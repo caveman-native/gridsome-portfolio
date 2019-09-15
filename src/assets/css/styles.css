@@ -4,4 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 1024px)  {
+    .lg\:right-0 {
+        right: -180px!important;
+    }
+}
+
 
