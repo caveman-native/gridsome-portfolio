@@ -4,7 +4,7 @@
         <ul class="flex flex-1 justify-center p-0 m-0 text-xs text-gray-700">     
             <li><g-link to="/">home<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
             <li><g-link to="/about">about<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
-            <li><g-link to="/repos">repos<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
+            <li><g-link to="/projects">projects<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
             <li><g-link to="/resume">resume<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
             <li><g-link to="/contact">contact me</g-link></li>    
         </ul>

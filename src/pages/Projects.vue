@@ -30,7 +30,7 @@
 import Default from '~/layouts/Default'
 export default {
     metaInfo: {
-        title: 'My Repos'
+        title: 'My Projects'
     }
 }
 </script>
