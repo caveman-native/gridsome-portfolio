@@ -10,9 +10,7 @@
         <p class="ml-6 mr-6 mb-6 font-sans text-base text-gray-300 font-normal">This is a collection of coding examples and small projects. You can visit the repos on my public github space.</p>
       
         <div class="repo-item flex flex-col items-center border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-t rounded-b lg:rounded-b-none lg:rounded-r p-4 m-6"> 
-
             <g-image src="~/assets/images/git-repo-link.png" width="500"/>
-
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">ITP Deployment App</div>
                 <p class="text-gray-700 text-base">
@@ -20,11 +18,12 @@
                 </p>
             </div>
             <div class="px-6 py-4">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Python</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">VueJS</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">TailwindCSS</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">python</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">bottle</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">tinydb</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">javascript</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">bootstrap</span>
             </div>
-            
         </div>   
 
     </div>
