@@ -54,7 +54,7 @@
             @keydown.down.exact.prevent="focusNext(true)"
             @keydown.esc.exact="hideDropdown"
             >
-            <font-awesome :icon="['fas', 'blog']"/>
+            <font-awesome :icon="['fas', 'project-diagram']"/>
             <span class="ml-4">Projects</span>
             </g-link>
         </li>

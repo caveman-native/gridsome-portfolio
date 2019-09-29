@@ -1,26 +1,31 @@
 <template>
   <Layout>
       
-    <div class="about-container flex flex-col h-auto mb-12">
+    <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
              
-        <div class="page-title flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-3xl text-white font-semibold">Git Repositories</div>
+        <div class="flex flex-row items-start ml-6 mr-6 mb-8 font-sans text-2xl text-pink-700 font-semibold"><font-awesome class="mt-1 mr-4" :icon="['fas', 'project-diagram']"/>Projects</div>
         
-        <p class="flex flex-col items-start ml-6 mr-6 mb-3 font-sans text-base text-gray-800 font-normal">Here are a few coding examples if you would like to check out some of my past and present side projects along with some study examples.</p>
-        
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+        <div class="ml-6 mr-6 mb-3 font-sans text-xl text-green-700 font-normal">Git Repos - click to run or visit the repo</div>
+
+        <p class="ml-6 mr-6 mb-6 font-sans text-base text-gray-300 font-normal">This is a collection of coding examples and small projects. You can visit the repos on my public github space.</p>
+      
+        <div class="repo-item flex flex-col items-center border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-t rounded-b lg:rounded-b-none lg:rounded-r p-4 m-6"> 
+
+            <g-image src="~/assets/images/git-repo-link.png" width="500"/>
+
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <div class="font-bold text-xl mb-2">ITP Deployment App</div>
                 <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                This project was intended to help scientific research. It is a demo created to control weather testing devices at sea near the north pole.
                 </p>
             </div>
             <div class="px-6 py-4">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#photography</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#travel</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#winter</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Python</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">VueJS</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">TailwindCSS</span>
             </div>
-        </div>
+            
+        </div>   
 
     </div>
   </Layout>
