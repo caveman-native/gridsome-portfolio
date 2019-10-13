@@ -12,7 +12,7 @@
         <div class="repo-item flex flex-col items-center border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-t rounded-b lg:rounded-b-none lg:rounded-r p-4 m-6"> 
             <g-image src="~/assets/images/git-repo-link.png" width="500"/>
             <div class="px-6 py-4">
-                <div class="font-bold text-xl mb-2 text-center">GRIDSOME APP</div>
+                <div class="font-bold text-xl mb-2 text-center">Gridsome App</div>
                 <p class="text-gray-700 text-base">
                 This App is an example portfolio site for information about myself. Gridsome is a static site generator built using VueJS GrapgQL and TailwindCSS. Lots of cool features. 
                 </p>
@@ -49,7 +49,7 @@
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">bottle</span>
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">tinydb</span>
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">javascript</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">bootstraps</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">bootstrap</span>
             </div>
         </div> 
 
