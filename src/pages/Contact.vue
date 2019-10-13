@@ -8,7 +8,7 @@
         <div class="flex flex-col items-start ml-6 mr-6 mb-3 font-sans text-xl text-green-700 font-normal">Please contact me if you have any comments or questions. Thanks! -Steve</div>
         
         <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
-        <form name="stephenobrienme-contact-form" action="/success" data-netlify="true">
+        <form name="stephenobrienme-contact-form" action="/success" netlify>
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                 <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
