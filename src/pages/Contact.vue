@@ -8,7 +8,10 @@
         <div class="flex flex-col items-start ml-6 mr-6 mb-3 font-sans text-xl text-green-700 font-normal">Please contact me if you have any comments or questions. Thanks! -Steve</div>
         
         <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
-        <form class="w-full max-w-sm">
+        <form name="stephenobrienme-contact-form" action="/success" data-netlify="true" netlify-honeypot="bot-field">
+            <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                 <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
@@ -16,7 +19,7 @@
                 </label>
                 </div>
                 <div class="md:w-2/3">
-                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Jane Doe">
+                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="name" onfocus="this.placeholder=''" onblur="this.placeholder=''" value="">
                 </div>
             </div>
             <div class="md:flex md:items-center mb-6">
@@ -26,7 +29,7 @@
                 </label>
                 </div>
                 <div class="md:w-2/3">
-                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email-address" type="email" value="Jane@Doe.com">
+                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email-address" type="email" placeholder="email" onfocus="this.placeholder=''" onblur="this.placeholder=''" value="">
                 </div>
             </div>
             <div class="md:flex md:items-center mb-6">
@@ -36,7 +39,7 @@
                 </label>
                 </div>
                 <div class="md:w-2/3">
-                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-message" type="email" value="Jane@Doe.com">
+                <textarea name="message" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-message" type="message" placeholder="type you message here" onfocus="this.placeholder=''" onblur="this.placeholder=''" value=""></textarea>
                 </div>
             </div>
             <div class="md:flex md:items-center mb-6">
@@ -51,43 +54,14 @@
             <div class="md:flex md:items-center">
                 <div class="md:w-1/3"></div>
                 <div class="md:w-2/3">
-                <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                    Sign Up
+                <button class="shadow bg-pink-700 hover:bg-pink-900 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"  type="submit" name="submit">
+                    Send Message
                 </button>
                 </div>
             </div>
         </form>
         </div>
-        
-        
-        
 
-        <div class="my-form flex flex-col items-start ml-6 mr-6 mb-8 font-sans text-xl text-gray-900">
-            <form name="stephenobrienme-contact-form" action="/success" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
-                <p class="hidden">
-                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-                </p>
-                <div class="sender-info">
-                    <div>
-                        <label for="name" class="label block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4 rounded">Name</label>
-                        <input type="text" name="name" />
-                    </div>
-                    <div>
-                        <label for="email" class="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4 rounded">Email</label>
-                        <input type="email" name="email" />
-                    </div>
-                </div>
-                <div class="message-wrapper">
-                    <label for="message" class="block text-gray-800 font-bold md:text-right mb-1 md:mb-0 pr-4 rounded">Short Message</label>
-                    <textarea name="message"></textarea>
-                </div>
-                <div class="g-recaptcha" data-sitekey="6LfRT7cUAAAAAPRYAoKhBoeRlpQyeEZttqWtweRN"></div>
-                <div class="submit-btn">
-                    <button class="bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4" type="submit" name="submit">Submit</button>
-                </div>
-            </form>
-        </div>
-        
     </div>
     
 </Layout>
