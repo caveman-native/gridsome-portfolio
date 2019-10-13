@@ -17,10 +17,12 @@ import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faAt } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase} from '@fortawesome/free-solid-svg-icons'
 import { faProjectDiagram } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
+import {faComments} from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add( faGithub, faTwitter, faBars, faHome, faUserCircle, faBlog, faFile, faAt, faBriefcase, faProjectDiagram )
+library.add(faGithub, faTwitter, faBars, faHome, faUserCircle, faBlog, faFile, faAt, faBriefcase, faProjectDiagram, faCheckSquare, faComments)
 
 export default function (Vue) {
     Vue.component('font-awesome', FontAwesomeIcon)

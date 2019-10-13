@@ -1,28 +1,27 @@
 <template>
-<Layout>
-    <div class="flex flex-col w-1/2 mx-auto">
-    
-        <p class="flex flex-row items-left page-title mb-10 font-semibold">Resume (pdf)</p>
-    
-        <p class="resume-copy mb-10">Thank you for contacting me! I'll try to get back to you very soon. -Steve</p>
-        
-        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mb-5">
-        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-        <g-link to="/">home</g-link>
-        </button> 
-        
-        
-    </div>
-</Layout>
+    <Layout>
+
+        <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
+
+            <div class="flex flex-row items-start ml-6 mr-6 mb-8 font-sans text-2xl text-pink-700 font-semibold"><font-awesome class="mt-1 mr-4" :icon="['fas', 'check-square']"/>Submission Success!</div>
+            
+            <div class="success-message flex flex-col items-center m-auto mt-10">
+                
+                <p class="flex flex-col items-start ml-6 mr-6 mb-3 font-sans text-base text-gray-300 font-normal">Thank you for contacting me! I will get back to you very soon. -Steve</p>
+                
+                <div class="home-btn mt-2">
+                    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-100"><g-link to="/">home</g-link></button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </Layout>
 </template>
 <script>
-
 export default {
     metaInfo: {
-        title: 'Thanks!'
+        title: 'Submission Success'
     }   
 }
 </script>
-<style>
-
-</style>
