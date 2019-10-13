@@ -44,7 +44,6 @@
                 
                 <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"><a href="https://itp-deployment-tool.herokuapp.com" target="_blank">RUN</a></button>
             </div>
-            
             <div class="px-6 py-4">
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">python</span>
                 <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">bottle</span>
