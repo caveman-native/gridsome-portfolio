@@ -1,15 +1,35 @@
 <template>
     <Layout>
 
-        <div class="flex flex-col items-center w-100 md:max-w-xl h-auto mx-auto mb-24">
+        <div class="flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
+            <!--    
+            <div class="col1 flex flex-col items-center border border-red-500">
+                <g-image class="w-3/4 md:w-1/4 lg:w-48 max-w-xs" src="~/assets/images/profile-img3.jpg" alt="Stephen OBrien" />
+            </div>
             
-            <g-image class="w-3/4 md:w-1/4 lg:w-48 max-w-xs" src="~/assets/images/profile-img3.jpg" alt="Stephen OBrien" />
-            
-            <div class="w-3/4 md:w-1/4 lg:w-48 max-w-xs mt-1 font-sans text-2xl text-white font-semibold leading-snug">Hi, I'm Stephen. I'm a Front End Developer, who likes VueJS.</div>
-            
-            <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-6"><g-link to="/about" class="">learn more</g-link></button>
- 
+            <div class="col2 flex flex-col items-center border border-red-500">
+                <div class="w-3/4 md:w-1/4 lg:w-48 max-w-xs mt-1 font-sans text-2xl text-white font-semibold leading-snug">Hi, I'm Stephen. I'm a Front End Developer, who likes VueJS.</div>
+                <div class="learn-more-btn">
+                    <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-6"><g-link to="/about" class="">learn more</g-link></button>
+                </div>
+            </div>
+            -->
+                
+            <div class="md:flex bg-gray-100 rounded-lg p-6">
+                <g-image class="h-64 w-64 rounded-full mx-auto mt-4 mb-4" src="~/assets/images/profile-img3.jpg" />
+                <div class="text-center md:self-center md:ml-8 md:mr-6 text-lg">
+                    <h2 class="text-lg">Hi, I'm Stephen.</h2>
+                    <div class="text-lg">I'm a Front End Developer,<br> who likes VueJS.</div>
+                    <div class="text-lg">
+                        <a href="https://www.linkedin.com/in/stevetobrien/" target="_blank">@linkedin</a>        
+                    </div>
+                    <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-6"><g-link to="/about" class="">learn more</g-link></button>
+                </div>
+            </div>
+
         </div>
+        
+
 
     </Layout>
 </template>
