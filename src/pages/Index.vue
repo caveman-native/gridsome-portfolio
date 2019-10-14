@@ -16,11 +16,11 @@
             -->
                 
             <div class="md:flex bg-gray-100 rounded-lg p-6">
-                <g-image class="h-64 w-64 rounded-full mx-auto mt-4 mb-4" src="~/assets/images/profile-img3.jpg" />
-                <div class="text-center md:self-center md:ml-8 md:mr-6 text-lg">
-                    <h2 class="text-lg">Hi, I'm Stephen.</h2>
+                <g-image class="w-64 rounded-lg mx-auto mt-4 mb-4" src="~/assets/images/profile-img3.jpg" />
+                <div class="text-center md:self-center md:ml-8 md:mr-6 font-sans text-2xl font-semibold leading-snug">
+                    <h2 class="">Hi, I'm Stephen.</h2>
                     <div class="text-lg">I'm a Front End Developer,<br> who likes VueJS.</div>
-                    <div class="text-lg">
+                    <div class="text-lg mt-2">
                         <a href="https://www.linkedin.com/in/stevetobrien/" target="_blank">@linkedin</a>        
                     </div>
                     <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-6"><g-link to="/about" class="">learn more</g-link></button>
@@ -28,8 +28,6 @@
             </div>
 
         </div>
-        
-
 
     </Layout>
 </template>
