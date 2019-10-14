@@ -23,7 +23,9 @@
                     <div class="text-lg mt-2">
                         <a href="https://www.linkedin.com/in/stevetobrien/" target="_blank">@linkedin</a>        
                     </div>
-                    <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-8 rounded mt-6"><g-link to="/about" class="">learn more</g-link></button>
+                    <button class="bg-pink-500 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded text-lg mt-6">
+                        <g-link to="/projects">my projects</g-link>
+                    </button>
                 </div>
             </div>
 
