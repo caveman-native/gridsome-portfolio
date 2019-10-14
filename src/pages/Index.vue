@@ -1,7 +1,7 @@
 <template>
     <Layout>
 
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center w-100 md:max-w-xl h-auto mx-auto mb-24">
             
             <g-image class="w-3/4 md:w-1/4 lg:w-48 max-w-xs" src="~/assets/images/profile-img3.jpg" alt="Stephen OBrien" />
             
@@ -20,5 +20,3 @@ export default {
     }
 }
 </script>
-<style>
-</style>
