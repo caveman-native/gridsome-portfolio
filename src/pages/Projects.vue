@@ -14,7 +14,7 @@
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2 text-center">Gridsome App</div>
                 <p class="text-gray-700 text-base">
-                This App is an example portfolio site for information about myself. Gridsome is a static site generator built using VueJS GrapgQL and TailwindCSS. Lots of cool features. 
+                This App is an example portfolio site for information about myself. Gridsome is a static site generator built using VueJS GraphQL and TailwindCSS. Lots of cool features. 
                 </p>
             </div>
             <div class="repo-btn flex flex-row flex-no-wrap">
