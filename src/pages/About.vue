@@ -15,7 +15,7 @@
             
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
                 <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Skills</div>
+                    <div class="font-sans text-2xl text-pink-700 font-semibold mb-2">Skills</div>
                     <p class="font-sans text-xl text-green-700 font-semibold">My Most Proficient Programming Experience</p>
                 </div>
                 <div class="px-6 py-1 mb-10">
