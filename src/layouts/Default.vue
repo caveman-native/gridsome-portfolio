@@ -2,7 +2,7 @@
     <div class="main-container flex flex-col relative min-h-screen mx-auto mt-0 ml-0 mr-0">
         <Navigation />
         <slot/>
-        <Footer class="absolute inset-x-0 bottom-0" />
+        <Footer class="footer-container absolute inset-x-0 bottom-0" />
     </div>
 </template>
 <script>
@@ -20,4 +20,6 @@ export default {
         /*background-image: url('~@/assets/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');*/
         background-color: #1A202C;
     }
+    
+    .footer-container { bottom: 1.6rem!important; }
 </style>
