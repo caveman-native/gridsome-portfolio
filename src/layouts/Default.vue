@@ -21,5 +21,5 @@ export default {
         background-color: #1A202C;
     }
     
-    .footer-container { bottom: 1.6rem!important; }
+    .footer-container { bottom: 6.5%!important; }
 </style>

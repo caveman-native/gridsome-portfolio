@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="flex flex-row items-end w-100 h-8 ml-2 mr-2 mb-0 p-1 pb-0">
+    <div class="flex flex-row items-end w-100 h-6 ml-2 mr-2 mb-0 p-1 pb-0">
         <ul class="flex flex-1 justify-center p-0 m-0 text-xs text-gray-700">     
             <li><g-link to="/">home<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
             <li><g-link to="/about">about<span class="ml-1 mr-1 text-pink-500">|</span></g-link></li>
@@ -9,8 +9,8 @@
             <li><g-link to="/contact">contact me</g-link></li>    
         </ul>
     </div>
-    <div class="flex flex-row items-end w-100 h-8 ml-2 mr-2 mb-4 p-1 pt-0">
-        <ul class="flex flex-1 justify-center p-1 pt-0 text-xs text-gray-700">
+    <div class="flex flex-row items-end w-100 h-6 ml-2 mr-2 mb-0 p-1 pb-0">
+        <ul class="flex flex-1 justify-center p-0 m-0 text-xs text-gray-700">
             <li>Stack &nbsp;<a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome<span class="ml-1 mr-1 text-pink-500">|</span></a></li>
             <li><a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">Tailwind CSS<span class="ml-1 mr-1 text-pink-500">|</span></a></li>
             <li><a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">VueJS 2.0</a></li>
