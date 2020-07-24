@@ -10,11 +10,12 @@
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                 <a href="https://drive.google.com/file/d/1X700Gp5U3l2JNyZi3LmpLWTc1_A5aAc7/view?usp=sharing" target="_parent">open pdf</a>
             </button> 
-            
+            <!--
             <button class="max-w-1/3 m-auto bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mb-5 mt-5">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                 <a href="https://www.stephenobrien.me/assets/pdf/Steve.OBrien.072420.pdf" download="Steve.OBrien.072420.pdf">download pdf</a>
             </button>
+            -->
             
         </div>
     </Layout>
