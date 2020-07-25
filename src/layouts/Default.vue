@@ -16,10 +16,22 @@ export default {
 }
 </script>
 <style>
-    .main-container {
-        /*background-image: url('~@/assets/images/rodion-kutsaev-IJ25m7fXqtk-unsplash.jpg');*/
-        background-color: #1A202C;
+    .main-container { 
+        background-color: #003864;
     }
-    
-    .footer-container { bottom: 6.5%!important; }
+    .main-container::before {    
+        content: "";
+        background-image: url('~@/assets/images/vasanth-0LBtvDcRWtc-unsplash.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.15;
+        z-index: 0;
+    }
+    .footer-container { 
+        bottom: 6.5%!important;
+    }
 </style>

@@ -15,7 +15,7 @@ export default {
     },
     data() {
         return {
-            siteDomainName: "s.o.me"
+            siteDomainName: "StephenOBrien.me"
         }
     }
 }

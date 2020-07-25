@@ -1,7 +1,7 @@
 <template>
     <Layout>
         
-        <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
+        <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24 z-10">
              
             <div class="flex flex-row items-start ml-6 mr-6 mb-8 font-sans text-2xl text-pink-700 font-semibold"><font-awesome class="mt-1 mr-4" :icon="['fas', 'briefcase']"/>Employment &amp; Personal Interests</div>
             
@@ -13,16 +13,16 @@
 
             <p class="flex flex-col items-start ml-6 mr-6 mb-3 font-sans text-base text-gray-300 font-normal">I also work with third party tools like Adobe Dynamic Tag Management(DTM) now Adobe Launch, Monetate for A/B Testing and Tealium (TIQ). Tealium TiQ is our current Tag Management System. Writing Javascript and knowledge of site performance and testing is a large part of these tasks.</p>
             
-            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <div class="max-w-sm rounded overflow-hidden">
                 <div class="px-6 py-4">
                     <div class="font-sans text-2xl text-pink-700 font-semibold mb-2">Skills</div>
                     <p class="font-sans text-xl text-green-700 font-semibold">My Most Proficient Programming Experience</p>
                 </div>
-                <div class="px-6 py-1 mb-10">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">HTML5</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">CSS3</span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Javascript</span>
-                    <span class="inline-block bg-gray-200 rounded-full m-2 px-3 py-1 text-sm font-semibold text-gray-700">VueJS</span>
+                <div class="px-6 py-1 mb-10 text-left">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1">HTML5</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1">CSS3</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1">Javascript</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 m-1">VueJS</span>
                 </div>
             </div>
             

@@ -1,7 +1,7 @@
 <template>
     <Layout>
 
-        <div class="flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
+        <div class="flex-col w-100 md:max-w-xl h-auto mx-auto mb-24 z-10">
             <!--    
             <div class="col1 flex flex-col items-center border border-red-500">
                 <g-image class="w-3/4 md:w-1/4 lg:w-48 max-w-xs" src="~/assets/images/profile-img3.jpg" alt="Stephen OBrien" />
@@ -15,8 +15,8 @@
             </div>
             -->
                 
-            <div class="md:flex bg-gray-100 rounded-lg p-6">
-                <g-image class="w-64 rounded-lg mx-auto mt-4 mb-4" src="~/assets/images/profile-img3.jpg" />
+            <div class="md:flex bg-gray-200 rounded p-6">
+                <g-image class="w-64 rounded mx-auto mt-4 mb-4" src="~/assets/images/profile-img-4.png" />
                 <div class="text-center md:self-center md:ml-8 md:mr-6 font-sans text-2xl font-semibold leading-snug">
                     <h2 class="">Hi, I'm Stephen.</h2>
                     <div class="text-lg">I'm a Front End Developer,<br> who likes VueJS.</div>

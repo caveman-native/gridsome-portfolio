@@ -1,7 +1,7 @@
 <template>
 <Layout>
 
-    <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24">
+    <div class="flex flex-col w-100 md:max-w-xl h-auto mx-auto mb-24 z-10">
 
         <div class="flex flex-row items-start ml-6 mr-6 mb-8 font-sans text-2xl text-pink-700 font-semibold"><font-awesome class="mt-1 mr-4" :icon="['fas', 'comments']"/>Comments &amp; Questions</div>
 
