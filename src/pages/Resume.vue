@@ -4,7 +4,7 @@
             
             <div class="flex flex-row items-start ml-6 mr-6 mb-8 font-sans text-2xl text-pink-700 font-semibold"><font-awesome class="mt-1 mr-4" :icon="['fas', 'file']"/>My Resume (pdf)</div>
             
-            <p class="flex flex-col items-start ml-6 mr-6 mb-20 font-sans text-base text-gray-300 font-normal">Please find my resume which can be viewed in the browser as a pdf or just download my latest version.<br><br>Thanks you for your interest.<br><i>- Steve</i></p>
+            <p class="flex flex-col items-start ml-6 mr-6 mb-20 font-sans text-base text-gray-300 font-normal">Please find my resume which can be viewed in the browser as a pdf or just download my latest version.<br><br>Thank you for your interest.<br><i>- Steve</i></p>
             
             <button class="max-w-1/3 m-auto bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mb-5">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
